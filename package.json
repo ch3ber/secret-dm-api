@@ -14,7 +14,8 @@
     "migrations:generate": "sequelize-cli migration:generate --name",
     "migrations:run": "sequelize-cli db:migrate",
     "migrations:revert": "sequelize-cli db:migrate:undo",
-    "migrations:delete": "sequelize-cli db:migrate:undo:all"
+    "migrations:delete": "sequelize-cli db:migrate:undo:all",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -34,7 +35,15 @@
     "@babel/preset-env": "7.20.2",
     "@babel/preset-typescript": "7.18.6",
     "@jest/globals": "29.3.1",
+    "@typescript-eslint/eslint-plugin": "5.48.2",
+    "@typescript-eslint/parser": "5.48.2",
     "babel-jest": "29.3.1",
+    "eslint": "8.32.0",
+    "eslint-config-standard": "17.0.0",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-n": "15.6.1",
+    "eslint-plugin-promise": "6.1.1",
+    "husky": "8.0.0",
     "jest": "29.3.1",
     "sequelize-cli": "6.5.2",
     "supertest": "6.3.3"
