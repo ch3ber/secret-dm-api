@@ -107,6 +107,7 @@
     "require": ["tsconfig-paths/register"]
   },
   "exclude": [
+    "postres_data",
     "node_modules",
     "babel.config.js"
   ]
