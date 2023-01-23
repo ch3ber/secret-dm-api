@@ -14,4 +14,4 @@ async function executeAfterSequelizeInitialization () {
 
 executeAfterSequelizeInitialization()
 
-export default sequelize
+export { sequelize }
