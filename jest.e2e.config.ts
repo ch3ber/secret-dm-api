@@ -125,7 +125,6 @@ export default {
 
   // A list of paths to directories that Jest should use to search for files in
   roots: [
-    'src',
     '__test__'
   ],
 
@@ -163,12 +162,11 @@ export default {
   testPathIgnorePatterns: [
     '/node_modules/',
     '/dist/',
-    'migrations',
-    '__test__/e2e'
-  ]
+    'migrations'
+  ],
 
   // The regexp pattern or array of patterns that Jest uses to detect test files
-  // testRegex: [],
+  testRegex: ['.e2e.test.ts$']
 
   // This option allows the use of a custom results processor
   // testResultsProcessor: undefined,

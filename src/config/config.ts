@@ -11,7 +11,8 @@ export const config = {
   dbName: process.env.DB_NAME,
   dbPort: process.env.DB_PORT,
   dbUrl: process.env.DB_URL,
-  appDomain: process.env.APP_DOMAIN
+  appDomain: process.env.APP_DOMAIN,
+  encryptSaltRounds: Number(process.env.ENCRYPT_SALT_ROUNDS)
 }
 
 // @ts-ignore

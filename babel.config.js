@@ -7,7 +7,7 @@ module.exports = {
     ['module-resolver', {
       alias: {
         '@': './src',
-        underscore: 'lodash'
+        __test__: './__test__'
       }
     }]
   ]
