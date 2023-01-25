@@ -36,7 +36,7 @@ export const roomsSchema: ModelAttributes = {
   },
   idLink: {
     type: DataTypes.INTEGER,
-    allowNull: false,
+    allowNull: true,
     field: 'id_link',
     references: {
       model: linksModel.tableName,
