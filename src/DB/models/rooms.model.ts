@@ -20,7 +20,7 @@ export const roomsSchema: ModelAttributes = {
     allowNull: false,
     field: 'created_at'
   },
-  idPrivate: {
+  isPrivate: {
     type: DataTypes.BOOLEAN,
     allowNull: false,
     field: 'is_private'

@@ -54,7 +54,7 @@ module.exports = {
         allowNull: false,
         field: 'created_at'
       },
-      idPrivate: {
+      isPrivate: {
         type: Sequelize.DataTypes.BOOLEAN,
         allowNull: false,
         field: 'is_private'
