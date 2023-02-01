@@ -70,7 +70,7 @@ module.exports = {
       },
       idLink: {
         type: Sequelize.DataTypes.INTEGER,
-        allowNull: false,
+        allowNull: true,
         field: 'id_link',
         references: {
           model: LINKS_TABLE_NAME,
